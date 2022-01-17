@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+#result {
+  font-weight: 800;
+}
+
+#generate_form,
+#guess_form,
+#chosen_form {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#generate_form {
+  margin: 10px 0 10px 0;
+}
+
+#result {
+  margin: 0;
+}
+
+input,
+button {
+  margin-left: 5px;
+}
+
+.hidden {
+  display: none;
+}
